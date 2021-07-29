@@ -129,6 +129,7 @@ margin-top: 19px;
 }
 .list{
     color: rgb(10, 1, 1);
+    display: inline-block;
 }
 .foot{
     margin-top: 20px;
@@ -138,4 +139,18 @@ margin-top: 19px;
      margin-top: 30px;
      width: 250px;
      margin-left: 10px;
+ }
+ li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border-radius: 21px;
+    padding: 0 5px;
+    margin: 3px 13px;
+    background-color: black;
+
+ }
+ li a:hover{
+    background-color: grey;
+
  }
